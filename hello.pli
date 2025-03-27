@@ -1,0 +1,3 @@
+procedure main;
+  put list('Hello, PL/I!');
+end main;
