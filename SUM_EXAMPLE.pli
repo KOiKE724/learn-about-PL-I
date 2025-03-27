@@ -1,0 +1,8 @@
+/* 変数を使って足し算 */
+SUM_EXAMPLE: PROCEDURE OPTIONS(MAIN);
+   DECLARE A, B, SUM FIXED BINARY;  /* 整数変数を定義 */
+   A = 10;
+   B = 20;
+   SUM = A + B;
+   PUT LIST('Sum:', SUM);
+END SUM_EXAMPLE;
