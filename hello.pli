@@ -1,3 +1,4 @@
-procedure main;
-  put list('Hello, PL/I!');
-end main;
+/*Hello World in PL/I */
+HELLO: PROCEDURE OPTIONS(MAIN);
+	PUT LIST('Hello,World!');
+END HELLO;
